@@ -83,7 +83,6 @@ p {
     background-color: #fff;
     display: grid;
     text-align: right;
-    place-content: center end;
     place-items: center end;
     padding: 40px;
     position: relative;
@@ -112,6 +111,11 @@ p {
     padding: 1rem 2rem;
     color: #f7f7f7;
     background: #e21;
+}
+
+.introducaoCover img {
+    object-fit: cover;
+    height: 100%;
 }
 
 .item3 {
@@ -165,4 +169,36 @@ p {
     padding: 40px;
     box-sizing: border-box;
     background:#fff;
+}
+
+@media (max-width: 1000px) {
+    .grid-itens3-4 {
+        grid-template-columns: 1fr;
+    }
+    
+    .item3 {
+        text-align: center;
+        margin: 40px 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        gap: 30px;
+        margin-top: 20px;
+    }
+    .item1 {
+        text-align: start;
+        justify-items: start;
+    }
+    .detalhe {
+        display: none;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .item3 {
+        text-align: center;
+        font-size: 3rem;
+    }
 }
