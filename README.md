@@ -1,4 +1,4 @@
-# Mini-Brikcraft
+# Mini-Bikcraft
 
 Projeto pessoal desenvolvido apenas para praticar. 
 
