@@ -12,11 +12,6 @@ usuário poderá construir sua própria bicicleta.
 - Abrir a pasta no seu vscode ou outro
 - Rodar o arquivo com live server.
 
-<img src = "screenshots/topo.png">
-<img src = "screenshots/conteudo-principal.png">
-<img src = "screenshots/rodape.png">
-<img src = "screenshots/tela-inteira.png">
-
 ## Tecnologias e Dependências
 
 | Name | Link |
